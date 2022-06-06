@@ -1,0 +1,41 @@
+p {
+  font-family: "Roboto", sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+input {
+  font-size: 16px;
+  font-weight: 400px;
+  display: block;
+}
+.thumbnail {
+  width: 100%;
+}
+.profile {
+  width: 50px;
+  border-radius: 50px;
+  vertical-align: top;
+  margin-top: 13px;
+}
+
+.videoTitle {
+  line-height: 25px;
+  font-weight: 700;
+}
+.channelName {
+  margin-bottom: 7px;
+}
+
+.template-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 25px;
+}
+
+.videoDescription {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  column-gap: 15px;
+  margin-top: 16px;
+}
