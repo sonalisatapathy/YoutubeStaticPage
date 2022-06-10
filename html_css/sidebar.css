@@ -1,0 +1,27 @@
+.sidebar {
+  background-color: white;
+  position: fixed;
+  top: 60px;
+  bottom: 0;
+  width: 70px;
+}
+.sideMenu {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sideMenu img {
+  height: 30px;
+  width: 25px;
+}
+.sideMenu div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+}
+.sideMenu:hover {
+  background-color: rgb(242, 238, 238);
+}
